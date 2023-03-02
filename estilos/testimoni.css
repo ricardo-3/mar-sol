@@ -1,0 +1,59 @@
+
+.contenido{
+    width: 100%;
+    height: auto;
+    margin-top: 70px;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.contenido .texto{
+    width: 80%;
+    height: auto;   
+    background-color:rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-flow: wrap;
+    border-radius: 10px;
+
+      
+}
+
+.texto h1{
+    margin-top: 20px;
+    color: wheat;
+    text-align: center;
+    margin-left: 18px;
+    
+
+}
+
+.texto p{
+    margin-top: 20px;
+    color: wheat;
+    text-align: center;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+
+
+
+
+
+@media screen and (max-width:1200px){
+    .containerr .estilo{
+        width: 40%;
+    }
+    
+}
+
+@media screen and (max-width:600px){
+    .containerr .estilo{
+        width: 90%;
+    }
+    
+}
